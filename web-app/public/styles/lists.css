@@ -1,0 +1,4 @@
+.flex-li {
+  display: inline-block;
+  @apply w-auto;
+}

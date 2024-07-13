@@ -1,0 +1,7 @@
+div.search {
+  @apply flex flex-row p-2 gap-2 max-h-8
+}
+
+div.search > input:focus {
+  outline: none;
+}

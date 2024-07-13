@@ -1,0 +1,18 @@
+.notified-item {
+  position: relative;
+  display: inline-block;
+}
+
+.notified-item > .badge {
+  position: absolute;
+  display: flex;
+  @apply text-white -top-1 -right-1 rounded-full items-center justify-center
+}
+
+.notified-item > .badge.small {
+  @apply bg-app-blue size-3.5 text-xs
+}
+
+.notified-item > .badge.medium {
+  @apply bg-app-black size-6 text-sm
+}

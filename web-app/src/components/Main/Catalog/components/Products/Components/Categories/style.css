@@ -1,0 +1,14 @@
+div.btn.category {
+  width: 150px;
+  height: 30px;
+  @apply text-sm mx-4
+}
+
+div.category.unselected {
+  @apply bg-transparent text-app-black
+}
+
+div.category.unselected:hover {
+  transition-duration: 0.5s;
+  @apply bg-app-blue text-white
+}
